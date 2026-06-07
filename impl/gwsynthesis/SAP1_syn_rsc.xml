@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="sap1_main" T_Register="239(0)" T_Alu="16(0)" T_Lut="404(0)">
+ <SubModule name="u_clock_module" Register="20" Lut="41" T_Register="20(20)" T_Lut="41(41)"/>
+ <SubModule name="u_control_logic" Register="3" Lut="14" T_Register="3(3)" T_Lut="14(14)"/>
+ <SubModule name="u_registera" Register="8" Lut="8" T_Register="8(8)" T_Lut="8(8)"/>
+ <SubModule name="u_registerb" Register="8" Lut="8" T_Register="8(8)" T_Lut="8(8)"/>
+ <SubModule name="u_alu" Register="1" Alu="16" Lut="7" T_Register="1(1)" T_Alu="16(16)" T_Lut="7(7)"/>
+ <SubModule name="u_instruction_register" Register="8" T_Register="8(8)"/>
+ <SubModule name="u_mem_address_register" Register="4" T_Register="4(4)"/>
+ <SubModule name="u_output_module" Register="55" Lut="187" T_Register="55(55)" T_Lut="187(187)"/>
+ <SubModule name="u_program_counter" Register="4" Lut="11" T_Register="4(4)" T_Lut="11(11)"/>
+ <SubModule name="u_ram" Register="128" Lut="128" T_Register="128(128)" T_Lut="128(128)"/>
+</Module>

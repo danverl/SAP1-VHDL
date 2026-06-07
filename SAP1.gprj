@@ -1,0 +1,22 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/alu.v" type="file.verilog" enable="1"/>
+        <File path="src/clock_module.v" type="file.verilog" enable="1"/>
+        <File path="src/control_logic.v" type="file.verilog" enable="1"/>
+        <File path="src/instruction_register.v" type="file.verilog" enable="1"/>
+        <File path="src/mem_address_register.v" type="file.verilog" enable="1"/>
+        <File path="src/output_module.v" type="file.verilog" enable="1"/>
+        <File path="src/program_counter.v" type="file.verilog" enable="1"/>
+        <File path="src/ram.v" type="file.verilog" enable="1"/>
+        <File path="src/register.v" type="file.verilog" enable="1"/>
+        <File path="src/sap1_main.v" type="file.verilog" enable="1"/>
+        <File path="src/sap1.cst" type="file.cst" enable="1"/>
+        <File path="src/timing.sdc" type="file.sdc" enable="1"/>
+        <File path="src/add3.txt" type="file.other" enable="1"/>
+    </FileList>
+</Project>
