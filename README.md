@@ -1,4 +1,4 @@
-#SAP1 in verilog for sipeed tang primer 25k
+# SAP1 in verilog for sipeed tang primer 25k
 
 ## Current programs
 ### Add3:
